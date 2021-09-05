@@ -15,22 +15,41 @@
         </div>
     
         <div id="second-div">
-            <input type="number" id="cashl-input" placeholder="Enter the cash" />
+            <input type="number" id="cash-input" placeholder="Enter the cash" />
             <button id="next-btn">Check</button>
         </div>
     </section>
 
     <section id="table-inside">
-        <div class="first-div">
-            <input type="number" id="bill-input" placeholder="Enter the bill" />
-            <button id="next-btn">Next</button>
-        </div>
-    
-        <div id="second-div">
-            <input type="number" id="cashl-input" placeholder="Enter the cash" />
-            <button id="next-btn">Check</button>
+        <div class="changeReturn">
+            <div class="label">Return Change:</div>
+            <div id="output">
+                <table>
+                    <tr>
+                        <th>Note</td>
+                            <td>2000</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>No.of Notes</td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
+
 
 
     <script src="./main.js"></script>

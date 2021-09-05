@@ -1,0 +1,15 @@
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  #second-div {
+      /* visibility: hidden; */
+      display: none;
+  }
+
+#table-inside {
+    /* visibility: hidden; */
+    display: none;
+}
